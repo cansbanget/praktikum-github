@@ -14,7 +14,7 @@ describe("App Root Endpoint", () => {
 
     // Untuk respon teks biasa
     if (res.headers["content-type"].includes("text/html")) {
-      expect(res.text.toLowerCase()).toMatch(/home|hello/);
+      expect(res.text.toLowerCase()).toMatch(/halo|hello/);
     }
   });
 });
